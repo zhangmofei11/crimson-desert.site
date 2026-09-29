@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat Guide - Crimson Desert Wiki</title>
+    <meta name="description" content="Master Crimson Desert combat system. Freeform combat, wrestling moves, combos, and combat skills for PS5 and PC.">
+    <meta name="keywords" content="Crimson Desert combat guide, Crimson Desert wrestling moves, Crimson Desert combos, Crimson Desert skills">
+    <link rel="canonical" href="https://crimson-desert.site/combat.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cd: { 500: '#B91C1C', 600: '#991B1B', 700: '#7F1D1D' },
+                        dark: { 900: '#0c0a09', 800: '#1c1917', 700: '#292524' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0c0a09 0%, #1c1917 50%, #0c0a09 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(185, 28, 28, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-800 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">CD</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Crimson Desert</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-red-500 transition-colors">Home</a>
+                    <a href="combat.html" class="text-red-500 hover:text-red-400 transition-colors font-medium">Combat</a>
+                    <a href="bosses.html" class="text-gray-300 hover:text-red-500 transition-colors">Bosses</a>
+                    <a href="weapons.html" class="text-gray-300 hover:text-red-500 transition-colors">Weapons</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-red-500 transition-colors">Walkthrough</a>
+                    <a href="beginner.html" class="text-gray-300 hover:text-red-500 transition-colors">Beginner</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Combat Guide</h1>
+            <p class="text-gray-400">Master Crimson Desert's unique freeform combat system combining swordplay with wrestling techniques.</p>
+        </div>
+
+        <!-- Combat Overview -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-red-400 mb-6">Freeform Combat System</h2>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <p class="text-gray-300 mb-4">Crimson Desert features a unique "freeform" combat system that combines traditional swordplay with dynamic wrestling moves. Unlike typical action RPGs, you can grab enemies, throw them, perform suplexes, and chain aerial attacks.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                    <div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-3">Core Combat Actions</h3>
+                        <ul class="text-gray-400 text-sm space-y-2">
+                            <li>• <span class="text-white">Light Attack</span> - Fast sword strikes</li>
+                            <li>• <span class="text-white">Heavy Attack</span> - Powerful charged strikes</li>
+                            <li>• <span class="text-white">Grab (G)</span> - Catch enemies and perform throws</li>
+                            <li>• <span class="text-white">Guard (H)</span> - Block incoming attacks</li>
+                            <li>• <span class="text-white">Dodge</span> - Quick movement to avoid attacks</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-cinzel text-lg font-bold text-white mb-3">Advanced Techniques</h3>
+                        <ul class="text-gray-400 text-sm space-y-2">
+                            <li>• <span class="text-red-400">Suplex</span> - Grab + Heavy while running</li>
+                            <li>• <span class="text-red-400">Aerial Attack</span> - Jump + Heavy for airborne strikes</li>
+                            <li>• <span class="text-red-400">Throw Counter</span> - Grab during enemy attack</li>
+                            <li>• <span class="text-red-400">Chain Combo</span> - String attacks into grapples</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combat Skills -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Combat Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Whirlwind Strike</h3>
+                    <p class="text-gray-400 text-sm mb-3">Spin attack hitting all nearby enemies. Great for crowds.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 15 | Cooldown: 8s</div>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Power Throw</h3>
+                    <p class="text-gray-400 text-sm mb-3">Charged throw that launches enemy into other enemies.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 20 | Cooldown: 12s</div>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Dragon Rush</h3>
+                    <p class="text-gray-400 text-sm mb-3">Dash forward and strike. Stuns on hit.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 25 | Cooldown: 15s</div>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Earth Shatter</h3>
+                    <p class="text-gray-400 text-sm mb-3">Slam ground creating shockwave. Knocks down enemies.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 30 | Cooldown: 20s</div>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Iron Will</h3>
+                    <p class="text-gray-400 text-sm mb-3">Temporary invincibility. Perfect for boss attacks.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 35 | Cooldown: 30s</div>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Berserker Rage</h3>
+                    <p class="text-gray-400 text-sm mb-3">Increased damage and speed for 20 seconds.</p>
+                    <div class="text-xs text-gray-500">SP Cost: 40 | Cooldown: 45s</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combo Guide -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Recommended Combos</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-green-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-green-400 mb-3">Starter Combo</h3>
+                    <p class="text-gray-400 text-sm mb-2">Light × 3 → Heavy → Grab → Throw</p>
+                    <p class="text-gray-500 text-xs">Safe opening combo for most enemies.</p>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-blue-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-3">Crowd Control</h3>
+                    <p class="text-gray-400 text-sm mb-2">Whirlwind → Earth Shatter → Heavy × 2</p>
+                    <p class="text-gray-500 text-xs">Handle groups of enemies efficiently.</p>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-red-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Burst Damage</h3>
+                    <p class="text-gray-400 text-sm mb-2">Dragon Rush → Aerial → Suplex → Heavy</p>
+                    <p class="text-gray-500 text-xs">Maximum damage combo for bosses.</p>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-purple-500/30 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-purple-400 mb-3">Counter Attack</h3>
+                    <p class="text-gray-400 text-sm mb-2">Guard → Grab Counter → Power Throw</p>
+                    <p class="text-gray-500 text-xs">Punish enemies who attack into your guard.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Controls -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Control Reference</h2>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6 overflow-x-auto">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-gray-400 border-b border-gray-700">
+                            <th class="text-left py-2">Action</th>
+                            <th class="text-left py-2">PS5</th>
+                            <th class="text-left py-2">PC</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-300">
+                        <tr class="border-b border-gray-700/50">
+                            <td class="py-2">Light Attack</td>
+                            <td class="text-red-400">R2</td>
+                            <td class="text-red-400">Left Click</td>
+                        </tr>
+                        <tr class="border-b border-gray-700/50">
+                            <td class="py-2">Heavy Attack</td>
+                            <td class="text-red-400">R2 + R1</td>
+                            <td class="text-red-400">Right Click</td>
+                        </tr>
+                        <tr class="border-b border-gray-700/50">
+                            <td class="py-2">Grab</td>
+                            <td class="text-white">L1 + R2</td>
+                            <td class="text-white">G</td>
+                        </tr>
+                        <tr class="border-b border-gray-700/50">
+                            <td class="py-2">Guard</td>
+                            <td class="text-blue-400">L2</td>
+                            <td class="text-blue-400">H</td>
+                        </tr>
+                        <tr class="border-b border-gray-700/50">
+                            <td class="py-2">Dodge</td>
+                            <td class="text-gray-300">Circle</td>
+                            <td class="text-gray-300">Space</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">Skills</td>
+                            <td class="text-purple-400">D-Pad</td>
+                            <td class="text-purple-400">1-4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Crimson Desert Wiki. Not affiliated with Pearl Abyss.</p>
+        </div>
+    </footer>
+</body>
+</html>

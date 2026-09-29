@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Guide - Crimson Desert Wiki</title>
+    <meta name="description" content="Crimson Desert beginner guide. Getting started tips, character stats, life skills, and early game advice for new players.">
+    <meta name="keywords" content="Crimson Desert beginner guide, Crimson Desert tips, Crimson Desert getting started, Crimson Desert new player">
+    <link rel="canonical" href="https://crimson-desert.site/beginner.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        cd: { 500: '#B91C1C', 600: '#991B1B', 700: '#7F1D1D' },
+                        dark: { 900: '#0c0a09', 800: '#1c1917', 700: '#292524' }
+                    },
+                    fontFamily: {
+                        'cinzel': ['Cinzel', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0c0a09 0%, #1c1917 50%, #0c0a09 100%); min-height: 100vh; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 40px rgba(185, 28, 28, 0.3); }
+    </style>
+</head>
+<body class="font-inter text-gray-100">
+    <header class="bg-dark-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="/" class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-800 rounded-lg flex items-center justify-center">
+                        <span class="font-cinzel font-bold text-white text-lg">CD</span>
+                    </div>
+                    <span class="font-cinzel font-bold text-xl text-white hidden sm:block">Crimson Desert</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-300 hover:text-red-500 transition-colors">Home</a>
+                    <a href="combat.html" class="text-gray-300 hover:text-red-500 transition-colors">Combat</a>
+                    <a href="bosses.html" class="text-gray-300 hover:text-red-500 transition-colors">Bosses</a>
+                    <a href="weapons.html" class="text-gray-300 hover:text-red-500 transition-colors">Weapons</a>
+                    <a href="walkthrough.html" class="text-gray-300 hover:text-red-500 transition-colors">Walkthrough</a>
+                    <a href="beginner.html" class="text-red-500 hover:text-red-400 transition-colors font-medium">Beginner</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="mb-8">
+            <h1 class="font-cinzel text-4xl font-bold text-white mb-4">Beginner Guide</h1>
+            <p class="text-gray-400">Everything new players need to know before starting Crimson Desert.</p>
+        </div>
+
+        <!-- Quick Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-yellow-400 mb-6">Essential Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">1. Master Grab Attacks</h3>
+                    <p class="text-gray-400 text-sm">The grab system (G key) is essential. It breaks enemy stance and deals bonus damage. Use it liberally.</p>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-3">2. Balance Combat & Life Skills</h3>
+                    <p class="text-gray-400 text-sm">Don't just fight - fishing, cooking, and crafting give permanentstat boosts and healing items.</p>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-green-400 mb-3">3. Do Side Quests Early</h3>
+                    <p class="text-gray-400 text-sm">Side quests give War Medals and silver. You'll need War Medals to unlock advanced skills.</p>
+                </div>
+                <div class="card-hover bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-purple-400 mb-3">4. Get a Mount Early</h3>
+                    <p class="text-gray-400 text-sm">The map is huge. Get a horse as soon as possible from the stable to fast travel and explore.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Character Stats -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Character Stats</h2>
+            <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div>
+                        <h3 class="font-bold text-white mb-1">STR</h3>
+                        <p class="text-gray-500 text-xs">Increases melee damage and grab effectiveness</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-1">AGI</h3>
+                        <p class="text-gray-500 text-xs">Increases attack speed and dodge distance</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-1">VIT</h3>
+                        <p class="text-gray-500 text-xs">Increases health and defense</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-1">INT</h3>
+                        <p class="text-gray-500 text-xs">Increases skill damage and SP pool</p>
+                    </div>
+                </div>
+                <div class="mt-6 pt-6 border-t border-gray-700/50">
+                    <h4 class="font-bold text-gray-300 mb-2">Recommended Starting Build</h4>
+                    <p class="text-gray-400 text-sm">For beginners: <span class="text-green-400">Equal STR and AGI</span>. This gives you good damage while maintaining mobility for dodging.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Life Skills -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Life Skills Overview</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-blue-400 mb-3">🎣 Fishing</h3>
+                    <p class="text-gray-400 text-sm mb-2">Relaxing activity that provides food materials and rare fish for upgrades.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 5</li>
+                        <li>• Provides cooking ingredients</li>
+                        <li>• Rare fish give permanent buffs</li>
+                    </ul>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">🍳 Cooking</h3>
+                    <p class="text-gray-400 text-sm mb-2">Create healing items and stat-boosting meals.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 3</li>
+                        <li>• Cooking skill increases meal potency</li>
+                        <li>• Sell excess for silver</li>
+                    </ul>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-green-400 mb-3">🏹 Hunting</h3>
+                    <p class="text-gray-400 text-sm mb-2">Track and kill wild animals for materials.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 7</li>
+                        <li>• Materials for armor upgrades</li>
+                        <li>• Rare skins sell for high silver</li>
+                    </ul>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-yellow-400 mb-3">⛏️ Mining</h3>
+                    <p class="text-gray-400 text-sm mb-2">Extract ores for weapon upgrades.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 2</li>
+                        <li>• Iron, Silver, Black ores</li>
+                        <li>• Essential for progression</li>
+                    </ul>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-purple-400 mb-3">🛠️ Crafting</h3>
+                    <p class="text-gray-400 text-sm mb-2">Create weapons, armor, and consumables.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 10</li>
+                        <li>• Requires materials from other skills</li>
+                        <li>• Craft legendary equipment</li>
+                    </ul>
+                </div>
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-amber-400 mb-3">🐴 Trading</h3>
+                    <p class="text-gray-400 text-sm mb-2">Buy low, sell high across different regions.</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Unlocks at Level 8</li>
+                        <li>• Higher profit with reputation</li>
+                        <li>• Fastest silver making method</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Early Game Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6">Early Game Advice</h2>
+            <div class="space-y-4">
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-yellow-400 mb-3">First 2 Hours</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li>• Complete the prologue - teaches core mechanics</li>
+                        <li>• Choose Longsword as your first weapon - most forgiving</li>
+                        <li>• Do the first 3 side quests - they unlock fast travel</li>
+                        <li>• Get a horse from the stable - essential for exploration</li>
+                        <li>• Focus on STR and AGI stats</li>
+                    </ul>
+                </div>
+
+                <div class="bg-dark-800/80 rounded-xl border border-gray-700 p-6">
+                    <h3 class="font-cinzel text-lg font-bold text-red-400 mb-3">Common Beginner Mistakes</h3>
+                    <ul class="text-gray-400 text-sm space-y-2">
+                        <li>• Ignoring life skills - they provide crucial buffs</li>
+                        <li>• Fighting too many enemies - run past mobs to save time</li>
+                        <li>• Not upgrading weapons - keep your weapon level current</li>
+                        <li>• Hoarding materials - use them for upgrades early</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Crimson Desert Wiki. Not affiliated with Pearl Abyss.</p>
+        </div>
+    </footer>
+</body>
+</html>
