@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Classes - Crimson Desert</title>
+    <meta name="description" content="Complete Crimson Desert character class guide. All playable classes, their abilities, stats, and best builds for different playstyles.">
+    <meta name="keywords" content="Crimson Desert classes, character types, class abilities, stats guide, RPG classes">
+    <link rel="canonical" href="https://crimson-desert.site/character-classes.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        crimson: { 400: '#DC2626', 500: '#B91C1C', 600: '#991B1B' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QCT3QN9RS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0QCT3QN9RS');
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #1a0a0a 0%, #2d1a1a 100%); font-family: 'Inter', sans-serif; }
+        .card-crimson { background: linear-gradient(135deg, rgba(185,28,28,0.2) 0%, rgba(45,26,26,0.95) 100%); border: 1px solid rgba(220,38,38,0.3); }
+        .card-crimson:hover { border-color: rgba(220,38,38,0.6); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="text-gray-300 antialiased">
+    <header class="bg-rose-950/95 border-b border-crimson-500/30 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-crimson-500 to-rose-800 flex items-center justify-center">
+                        <span class="text-xl">🏜️</span>
+                    </div>
+                    <div>
+                        <span class="font-title text-xl text-crimson-400">CRIMSON DESERT</span>
+                        <span class="block text-xs text-gray-500 tracking-widest">OPEN WORLD GUIDE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-gray-400 hover:text-crimson-400 rounded transition-all">Home</a>
+                    <a href="character-classes.html" class="px-3 py-2 text-crimson-400 bg-crimson-500/10 rounded border border-crimson-500/30">Classes</a>
+                    <a href="combat.html" class="px-3 py-2 text-gray-400 hover:text-crimson-400 rounded transition-all">Combat</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-crimson-400 mb-4">CHARACTER CLASSES</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">All playable classes and their abilities</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-crimson-500 to-transparent mb-12"></div>
+
+        <!-- Warrior Class -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">⚔️ WARRIOR</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Tank Warrior</h3>
+                    <p class="text-gray-400 text-sm mb-3">Frontline defender, absorbs damage</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-red-400">Stats:</strong> DEF 90, ATK 60, HP 85
+                    </div>
+                </div>
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">DPS Warrior</h3>
+                    <p class="text-gray-400 text-sm mb-3">Heavy damage dealer</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-red-400">Stats:</strong> ATK 90, DEF 50, HP 60
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Archer Class -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-green-400 mb-6">🏹 ARCHER</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Sniper Archer</h3>
+                    <p class="text-gray-400 text-sm mb-3">Long range precision damage</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-green-400">Stats:</strong> ATK 85, SPD 70, RNG 95
+                    </div>
+                </div>
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Rapid Archer</h3>
+                    <p class="text-gray-400 text-sm mb-3">Fast attacks, close range</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-green-400">Stats:</strong> ATK 70, SPD 90, RNG 60
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mage Class -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-purple-400 mb-6">🔮 MAGE</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Battle Mage</h3>
+                    <p class="text-gray-400 text-sm mb-3">Melee magic damage</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-purple-400">Stats:</strong> ATK 80, DEF 55, MP 85
+                    </div>
+                </div>
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Support Mage</h3>
+                    <p class="text-gray-400 text-sm mb-3">Healing and buffs</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-purple-400">Stats:</strong> ATK 50, DEF 50, MP 95
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mercenary Class -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-yellow-400 mb-6">💰 MERCENARY</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Combat Mercenary</h3>
+                    <p class="text-gray-400 text-sm mb-3">Balanced fighter for hire</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-yellow-400">Stats:</strong> ATK 70, DEF 70, SPD 70
+                    </div>
+                </div>
+                <div class="card-crimson rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Trade Mercenary</h3>
+                    <p class="text-gray-400 text-sm mb-3">Commerce specialist</p>
+                    <div class="text-xs text-gray-500">
+                        <strong class="text-yellow-400">Stats:</strong> ATK 50, DEF 50, SPD 60, TRD 95
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Abilities -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-crimson-400 mb-6">⭐ CLASS ABILITIES</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="card-crimson rounded-xl p-4 text-center">
+                    <h3 class="font-bold text-white text-sm">Warrior Slash</h3>
+                    <p class="text-gray-500 text-xs">All classes</p>
+                </div>
+                <div class="card-crimson rounded-xl p-4 text-center">
+                    <h3 class="font-bold text-white text-sm">Power Strike</h3>
+                    <p class="text-gray-500 text-xs">Warrior</p>
+                </div>
+                <div class="card-crimson rounded-xl p-4 text-center">
+                    <h3 class="font-bold text-white text-sm">Arrow Rain</h3>
+                    <p class="text-gray-500 text-xs">Archer</p>
+                </div>
+                <div class="card-crimson rounded-xl p-4 text-center">
+                    <h3 class="font-bold text-white text-sm">Fireball</h3>
+                    <p class="text-gray-500 text-xs">Mage</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-crimson-500/10 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Crimson Desert Guide. Game not affiliated.</p>
+        </div>
+    </footer>
+</body>
+</html>
