@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crimson-desert.site/sitemap.xml
