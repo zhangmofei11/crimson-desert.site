@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "crimson-desert-site",
+  "name": "crimson-desert",
   "compatibility_date": "2026-09-21",
   "observability": {
     "enabled": true
